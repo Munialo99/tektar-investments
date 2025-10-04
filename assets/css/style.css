@@ -1,8 +1,6 @@
-/* Reset */
+/* Reset & basic styling */
 * { margin:0; padding:0; box-sizing:border-box; font-family: Arial, sans-serif; }
-
 body { line-height:1.6; background-color:#f5f5f5; color:#333; }
-
 .container { width:90%; max-width:1200px; margin:auto; }
 
 /* Header */
@@ -26,8 +24,14 @@ header nav ul li a:hover { text-decoration:underline; }
 .card { background:#fff; padding:20px; border-radius:8px; width:250px; box-shadow:0 4px 8px rgba(0,0,0,0.1); }
 .card h4 { margin-bottom:15px; color:#0077b6; }
 
+/* Content section */
+.content { padding:50px 0; }
+.content h2 { color:#0077b6; margin-bottom:20px; }
+.content p { margin-bottom:15px; line-height:1.5; }
+
 /* Footer */
 footer { background:#111; color:#fff; text-align:center; padding:20px 0; margin-top:50px; }
+footer p { margin:5px 0; }
 
 /* Responsive */
 @media(max-width:768px){
